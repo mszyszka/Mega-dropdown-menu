@@ -44,6 +44,27 @@ nav li:hover a {
     color: #FFFFFF;
 }
 
-.menu-sub ul{
+.menu-sub  {
     position: absolute;
+    background: #444;
+    display: none;
+    padding: 30px;
+}
+
+.menu-sub li {
+    display: block;
+}
+
+nav li:hover .menu-sub {
+    display: block;
+    width: 100%;
+}
+
+h3 {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.menu-sub a {
+    padding: 0;
 }
