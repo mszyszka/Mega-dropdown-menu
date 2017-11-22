@@ -1,0 +1,49 @@
+body {
+    background: #DDDDDD;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    background: #FFFFFF;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    position: ralative;
+    list-style: none;
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #444444;
+    text-decoration: none;
+    display: block;
+    padding: 0.75em 1.75em;
+}
+
+nav li:hover {
+    background: #444444;
+}
+nav li:hover a {
+    color: #FFFFFF;
+}
+
+.menu-sub ul{
+    position: absolute;
+}
