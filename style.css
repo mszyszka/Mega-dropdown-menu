@@ -21,7 +21,7 @@ nav {
 nav ul {
     margin: 0;
     padding: 0;
-    position: ralative;
+    position: relative;
     list-style: none;
     display: block;
 }
@@ -60,11 +60,19 @@ nav li:hover .menu-sub {
     width: 100%;
 }
 
-h3 {
+
+.menu-category {
     color: #FFFFFF;
     letter-spacing: 1px;
+    margin: 2.5em 0 0.5em 0;
 }
+
+
 
 .menu-sub a {
     padding: 0;
+    margin-bottom: 0.35em;
+}
+.menu-sub a:hover {
+   text-decoration: underline;
 }
