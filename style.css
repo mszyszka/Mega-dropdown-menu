@@ -76,3 +76,22 @@ nav li:hover .menu-sub {
 .menu-sub a:hover {
    text-decoration: underline;
 }
+
+.menu-col-1,
+.menu-col-2,
+.menu-col-3,
+.menu-col-4 {
+    float: left;
+}
+
+.menu-col-1 {
+    width: 25%;
+}
+
+.menu-sub-2, 
+.menu-sub-3, 
+.menu-sub-4 {
+    position: absolute;
+    left: 0px;
+    
+}
